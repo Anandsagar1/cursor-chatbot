@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gemini Chatbot</h1>
+            <div class="api-key-section">
+                <input type="password" id="apiKeyInput" placeholder="AIzaSyCTLytr_s8ysaneLoLGg7AOd5oOMb74DXY">
+                <button id="saveKeyBtn">Save Key</button>
+            </div>
+        </header>
+        
+        <div class="chat-container" id="chatContainer">
+            <div class="welcome-message">
+                <p>👋 Hello! I'm powered by Google Gemini. Enter your API key above to start chatting.</p>
+                <p class="help-text">Get your API key from: <a href="https://makersuite.google.com/app/apikey" target="_blank">Google AI Studio</a></p>
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <textarea id="userInput" placeholder="Type your message here..." rows="1"></textarea>
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
